@@ -1,0 +1,13 @@
+CREATE TABLE CUSTOMER_920525 (
+customer_id number(4) primary key,
+customer_name varchar2(25),
+age number(2),
+country varchar2(50),
+address varchar2(100),
+gender varchar2(1),
+interest varchar2(200)
+);
+
+create sequence customer_sequence_920525
+start with 1
+increment by 1;
